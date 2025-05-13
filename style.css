@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #000;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #111;
+  }
+  
+  .logo, .footer-logo {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-weight: bold;
+  }
+  
+  h2 {
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 20px auto;
+    display: inline-block;
+    font-size: 24px;
+  }
+  
+  .position-section {
+    margin: 30px 0;
+  }
+  
+  .box-wrapper {
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 30px;
+  }
+  
+  .relative-box {
+    position: relative;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .box {
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .relative {
+    background-color: limegreen;
+    z-index: 1;
+  }
+  
+  .box_absolute {
+    width: 237px;
+    height: 209px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  
+  .circle {
+    border-radius: 100px;
+    width: 411px;
+    height: 209px;
+    line-height: 80px;
+    top: 30px;
+    left: 0;
+  }
+  
+  .info-section {
+    margin: 50px 0;
+  }
+  
+  .info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #600;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+
+
+.box_relative {
+    width: 237px;
+    height: 209px;
+    background-color: limegreen;
+    z-index: 1;
+}
+
